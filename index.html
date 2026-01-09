@@ -45,7 +45,11 @@
 </head>
 
 <body>
-
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js");
+  }
+</script>
   <h1>احكي براحتك</h1>
 
   <div class="mic">🎤</div>
