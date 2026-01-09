@@ -1,0 +1,10 @@
+{
+  "name": "Korean Derja Voice Mediator",
+  "short_name": "KD Voice",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Respectful voice mediator between Korean honorific speech and Tunisian Derja",
+  "icons": []
+}
