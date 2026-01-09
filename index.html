@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="ar">
-<head <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#0f172a">
+<head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Voice Mediator</title>
+
+  <meta name="theme-color" content="#7A8F7A" />
+
+  <link rel="manifest" href="manifest.json" />
+
   <style>
     body {
       background: #F4EFEA;
-      font-family: sans-serif;
+      font-family: Arial, sans-serif;
       text-align: center;
       padding: 40px;
       color: #2E2E2E;
     }
-    button {
-      background: #7A8F7A;
-      color: white;
-      border: none;
-      padding: 20px 30px;
-      font-size: 18px;
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+
+    .mic {
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
+      background: #7A8F7A;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      color: white;
+      margin: 0 auto 30px;
+    }
+
+    p {
+      font-size: 16px;
+      opacity: 0.8;
     }
   </style>
 </head>
+
 <body>
-  <h2>احكي براحتك</h2>
-  <button>🎤</button>
+
+  <h1>احكي براحتك</h1>
+
+  <div class="mic">🎤</div>
+
   <p>Voice input will be added next</p>
+
 </body>
 </html>
